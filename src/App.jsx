@@ -4,6 +4,7 @@ import LandingPage from "./Components/LandingPage";
 import Navbar from "./Components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DatePage from "./Components/DatePage";
+import TimelineMap from "./Components/Timemap";
 /* @vite-ignore */
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" index element={<LandingPage />} />
         <Route path="/:date" element={<DatePage />} />
+        <Route path="/timeline" element={<TimelineMap/>}/>
       </Routes>
 
       {/* <GitHubList username={username} type="repos" token={token} />

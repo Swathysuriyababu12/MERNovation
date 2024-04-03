@@ -33,9 +33,10 @@ const Navbar = () => {
             <a href="#" className="text-white text-lg font-semibold">
               Mernovation
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            {/* <a href="#" className="text-gray-300 hover:text-white">
               Timeline
-            </a>
+            </a> */}
+            <Link to="/timeline" className="text-gray-300 hover:text-white">Time Line</Link>
             <a href="#" className="text-gray-300 hover:text-white">
               Information
             </a>
