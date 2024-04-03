@@ -8,7 +8,7 @@ import DynamicComponentLoader from "./DynamicComponentLoader";
 
 const DatePage = () => {
   const { date } = useParams();
-  const componentPromise = import(`../EventComponents/E-${date}`);
+  const componentPromise = import(`../EventComponents/E-${date}.jsx`);
 
   // Render the selected event component inside Suspense
   return (
