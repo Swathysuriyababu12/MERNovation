@@ -15,7 +15,7 @@ const TimelineMap = () => {
   // Generate an array of 30 days
   const days = [
     {
-      day: 1,
+      day: "27-April",
       content: `Hackathon Inaugration Mail shared with forms+Video+proposal template+meet schedule
                 mails  sdjjssf`,
     },
@@ -72,7 +72,7 @@ const TimelineMap = () => {
             className={`flex items-center justify-center w-16 h-16 border border-gray-300 rounded-full shadow-md ${
               selectedDay === day
                 ? "bg-green-500 text-white shadow-lg"
-                : "hover:shadow-lg"
+                : "hover:shadow-lg hover:bg-green-600"
             }`}
           >
             {React.createElement(icons[index % icons.length], { size: 24 })}
